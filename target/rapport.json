@@ -1,0 +1,65 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-09T23:51:42.695Z",
+        "line": 4,
+        "name": "Advanced search",
+        "description": "",
+        "id": "ebay-home-page-scenario;advanced-search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6775322400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am in the Ebay home page",
+            "match": {
+              "location": "steps.EbayHome_steps.i_am_in_the_ebay_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1695765800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on advanced link",
+            "match": {
+              "location": "steps.EbayHome_steps.i_click_on_advanced_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12755100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I naviguate to the advanced search page",
+            "match": {
+              "location": "steps.EbayHome_steps.i_naviguate_to_the_advanced_search_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Ebay home page scenario",
+    "description": "",
+    "id": "ebay-home-page-scenario",
+    "keyword": "Feature",
+    "uri": "file:features/Ebay_Home.feature",
+    "tags": []
+  }
+]
